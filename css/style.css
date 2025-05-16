@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(12, 12, 12);
+    color: white;
+}
+input{
+    width: 100%;
+    padding: 18px;
+    border-radius: 5px;
+    outline: none;
+    background-color: black;
+    box-shadow: 0 0 10px rgb(204, 66, 7);
+    color: white;
+    font-size: 1.5rem;
+}
+div{
+    padding: 30px;
+    font-size: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 20px white;
+    outline: none;
+    background: rgba(0,0,0,0.85);
+    transition: width 0.3s, padding 0.3s, font-size 0.3s;
+}
+
+
+table{
+    margin-top: 20px;
+    width: 100%;
+    border-spacing: 20px;
+    
+}
+
+td{
+    padding:15px 20px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    border-spacing: 5px;
+    box-shadow: 0 0 10px rgb(36, 162, 235);
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    div {
+        width: 60vw;
+        padding: 24px;
+        font-size: 1.5rem;
+    }
+    table{
+        height: 60vh;
+    }
+}
+
+@media (max-width: 600px) {
+    div {
+        width: 80vw;
+        padding: 16px;
+        font-size: 1.1rem;
+    }
+    input {
+        padding: 18px;
+        font-size: 1rem;
+        font-size: 1rem;
+    }
+    td {
+        padding: 8px 10px;
+        font-size: 1rem;
+    }
+    table {
+        border-spacing: 10px;
+        height: 60vh;
+    }
+}
+
+@media (max-width: 400px) {
+    div {
+        width: 98vw;
+        padding: 10px;
+        font-size: 0.95rem;
+    }
+    input {
+        padding: 10px;
+        font-size: 1rem;
+    }
+    td {
+        padding: 7px 8px;
+        font-size:1rem;
+    }
+}

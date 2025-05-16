@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        
+            <input type="text" name="" id="display" readonly>
+        <table>
+            <tr>
+                <td onclick="numClear()">C</td>
+                <td onclick="numDel()">D</td>
+                <td onclick="numValue('%')">%</td>
+                <td onclick="numValue('/')">/</td>
+            </tr>
+            <tr>
+                <td onclick="numValue('7')">7</td>
+                <td onclick="numValue('8')">8</td>
+                <td onclick="numValue('9')">9</td>
+                <td onclick="numValue('*')">X</td>
+            </tr>
+            <tr>
+                <td onclick="numValue('4')">4</td>
+                <td onclick="numValue('5')">5</td>
+                <td onclick="numValue('6')">6</td>
+                <td onclick="numValue('-')">-</td>
+            </tr>
+            <tr>
+                <td onclick="numValue('1')">1</td>
+                <td onclick="numValue('2')">2</td>
+                <td onclick="numValue('3')">3</td>
+                <td onclick="numValue('+')">+</td>
+            </tr>
+            <tr>
+                <td onclick="numValue('00')">00</td>
+                <td onclick="numValue('0')">0</td>
+                <td onclick="numValue('.')">.</td>
+                <td onclick="numTotal()">=</td>
+            </tr>
+
+        </table>
+    </div>
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
