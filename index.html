@@ -13,36 +13,37 @@
     <div class="container">
         
             <input type="text" name="" id="display" readonly>
+            <hr>
         <table>
             <tr>
-                <td onclick="numClear()">C</td>
-                <td onclick="numDel()">D</td>
-                <td onclick="numValue('%')">%</td>
-                <td onclick="numValue('/')">/</td>
+                <td onclick="numClear()"class="orange">C</td>
+                <td onclick="numDel()"class="orange">D</td>
+                <td onclick="numValue('%')"class="orange">%</td>
+                <td onclick="numValue('/')"class="orange">/</td>
             </tr>
             <tr>
                 <td onclick="numValue('7')">7</td>
                 <td onclick="numValue('8')">8</td>
                 <td onclick="numValue('9')">9</td>
-                <td onclick="numValue('*')">X</td>
+                <td onclick="numValue('*')" class="orange">X</td>
             </tr>
             <tr>
                 <td onclick="numValue('4')">4</td>
                 <td onclick="numValue('5')">5</td>
                 <td onclick="numValue('6')">6</td>
-                <td onclick="numValue('-')">-</td>
+                <td onclick="numValue('-')" class="orange">-</td>
             </tr>
             <tr>
                 <td onclick="numValue('1')">1</td>
                 <td onclick="numValue('2')">2</td>
                 <td onclick="numValue('3')">3</td>
-                <td onclick="numValue('+')">+</td>
+                <td onclick="numValue('+')" class="orange">+</td>
             </tr>
             <tr>
                 <td onclick="numValue('00')">00</td>
                 <td onclick="numValue('0')">0</td>
                 <td onclick="numValue('.')">.</td>
-                <td onclick="numTotal()">=</td>
+                <td onclick="numTotal()" class="equal">=</td>
             </tr>
 
         </table>

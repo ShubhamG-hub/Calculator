@@ -18,9 +18,11 @@ input{
     border-radius: 5px;
     outline: none;
     background-color: black;
-    box-shadow: 0 0 10px rgb(204, 66, 7);
+    /* box-shadow: 0 0 10px rgb(204, 66, 7); */
     color: white;
     font-size: 1.5rem;
+    border: none;
+    text-align: right;
 }
 div{
     padding: 30px;
@@ -34,7 +36,6 @@ div{
 
 
 table{
-    margin-top: 20px;
     width: 100%;
     border-spacing: 20px;
     
@@ -46,9 +47,23 @@ td{
     text-align: center;
     cursor: pointer;
     border-spacing: 5px;
-    box-shadow: 0 0 10px rgb(36, 162, 235);
+    /* box-shadow: 0 0 10px rgb(36, 162, 235); */
 }
+.orange{
+    color: orange;
+}
+.equal{
+    background-color: rgb(240, 158, 5);
+    color: white;
+}
+.equal:hover{
+    background-color:rgb(240, 158, 5);   ;
+}
+td:hover{
+    /* border: 1px solid white; */
+    background-color: rgb(51, 50, 50);
 
+}
 /* Responsive Design */
 @media (max-width: 900px) {
     div {
